@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-// import App from './App1'
+import App from './App3'
 import React from "react"
 // class Square extends React.Component {
 //   // constructor(props) {
@@ -165,9 +165,8 @@ class Game extends React.Component {
   }
 }
 ReactDOM.render(
-  // <App />,
-  // <App1 />,
-  <Game />,
+  <App />,
+  // <Game />,
   document.getElementById('root')
 )
 
