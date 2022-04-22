@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import App from './App3'
+import App from './App4'
 import React from "react"
 // class Square extends React.Component {
 //   // constructor(props) {
@@ -19,6 +19,7 @@ import React from "react"
 
 // 函数式组件
 function Square(props) {
+  // console.log(this)  undefined
   return (
     <button className="square" onClick={props.onClick}>
       {props.value}
