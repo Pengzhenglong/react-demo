@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import App from './App7'
+import App from './App10'
 import React from "react"
 // class Square extends React.Component {
 //   // constructor(props) {
