@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import App from './App4'
+import App from './App5'
 import React from "react"
 // class Square extends React.Component {
 //   // constructor(props) {
@@ -171,3 +171,9 @@ ReactDOM.render(
   document.getElementById('root')
 )
 
+// setTimeout(() => {
+//   ReactDOM.render(
+//     <input type="text" />,
+//     document.getElementById('root')
+//   )
+// }, 3000)
