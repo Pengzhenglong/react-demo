@@ -1,8 +1,9 @@
 import ReactDOM from "react-dom";
-import App from './App11'
+import App from './App12'
 import React from "react"
 import { Provider } from "react-redux"
 import store from './store'
+import Router from "./router/index";
 // class Square extends React.Component {
 //   // constructor(props) {
 //   //   super(props);
@@ -168,10 +169,10 @@ class Game extends React.Component {
   }
 }
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-
+  // <Provider store={store}>
+  //   <App />
+  // </Provider>,
+  <Router />,
   // <Game />,
   document.getElementById('root')
 )

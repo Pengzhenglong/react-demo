@@ -4,6 +4,7 @@ const defaultState = {
 }
 
 // 并导出一个函数
+// eslint-disable-next-line
 export default (state = defaultState, action) => {
   let newState = JSON.parse(JSON.stringify(state))
   // if (action.type === 'addNum') {

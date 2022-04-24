@@ -15,14 +15,14 @@ const mapStateToProps = (state) => {
   };
 };
 
-const  mapDispatchToProps = (dispatch) => {
-  return{
+const mapDispatchToProps = (dispatch) => {
+  return {
     // 映射函数`
     // 累加
     add: () => {
-      const  action = {type:"addNum"}
-      dispatch(action)
-  }
-}
-}
-export default connect(mapStateToProps,mapDispatchToProps)(App11);
+      const action = { type: "addNum" };
+      dispatch(action);
+    },
+  };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(App11);
